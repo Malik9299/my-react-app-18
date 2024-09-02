@@ -41,3 +41,17 @@ body {
   background-color: #000000bd;
   color: #a4b7b1;
 }
+.nav {
+  padding: 41px 5px;
+  margin-bottom: 20px;
+}
+.eachNave {
+  padding: 8px;
+  background-color: #225656;
+  margin: 10px;
+  color: #ffffff;
+}
+.eachNave.active {
+  background-color: rgb(60 143 18);
+  color: #1b4314;
+}
