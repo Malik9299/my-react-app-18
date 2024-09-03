@@ -7,6 +7,10 @@ const NaveBar = () => {
     { title: "Home", link: "/" },
     { title: "About", link: "/about" },
     { title: "Live-interview", link: "/live-interview" },
+    {
+      title: "Composition Vs Inheritance",
+      link: "/composition-vs-inheritance",
+    },
   ];
 
   return (
