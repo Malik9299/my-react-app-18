@@ -6,6 +6,8 @@ import APIIntegration from "./liveInterviewSolutions/APIIntegration/APIIntegrati
 import MakeDropDown from "./liveInterviewSolutions/makeDropDown";
 // const { Fragment } = require("react");
 import { Fragment } from "react/jsx-runtime";
+import CompositionVsInheritance from "./T34.CompositionVsInheritance";
+import ClientSideRendering from "./T42.ClientSideRendering/ClientSideRendering";
 
 const Router = () => {
   return (
@@ -17,6 +19,11 @@ const Router = () => {
           <Route path="api-integration" element={<APIIntegration />} />
           <Route path="make-dropdown" element={<MakeDropDown />} />
         </Route>
+        <Route
+          path="composition-vs-inheritance"
+          element={<CompositionVsInheritance />}
+        />
+        <Route path="ClientSideRendering" element={<ClientSideRendering />} />
       </Routes>
     </Fragment>
   );
