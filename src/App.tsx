@@ -1,5 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import MainComponent from "./components";
 // import MainComponent from "./components";
 
 import NaveBar from "./components/NaveBar";
@@ -8,8 +9,9 @@ function App() {
   return (
     <div className="App">
       {/* <MainComponent /> */}
-      <NaveBar />
-      <Router />
+      {/* <NaveBar /> */}
+      {/* <Router /> */}
+      <MainComponent />
     </div>
   );
 }

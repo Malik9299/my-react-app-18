@@ -36,29 +36,56 @@
     transform: rotate(360deg);
   }
 } */
-.App {
-  margin: 0px 30px;
-}
 
 body {
   background-color: rgb(33 33 33);
   /* color: rgb(254, 254, 254); */
   color: rgb(106, 106, 106);
 }
+.top-menu {
+  background-image: linear-gradient(to bottom right, #041527, #233d64);
+  padding: 25px 0px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #233d64;
+}
+.top-eachNave {
+  padding: 8px;
+  margin: 10px;
+  color: rgb(15, 105, 270);
+  text-decoration: none;
+}
+.top-eachNave.active {
+  color: rgb(198, 45, 72);
+  text-decoration: none;
+}
 .nav {
   padding: 41px 5px;
   margin-bottom: 20px;
 }
 .eachNave {
-  padding: 8px;
-  background-color: rgb(13, 13, 13);
   margin: 10px;
   color: rgb(15, 105, 270);
+  text-decoration: none;
 }
 .eachNave.active {
-  /* background-color: rgb(60 143 18);
-  color: #1b4314; */
-  background-color: rgb(13, 13, 13);
   color: rgb(198, 45, 72);
   text-decoration: none;
+}
+.jsxCode {
+  background-color: black;
+  color: green;
+  padding: 15px;
+  margin: 26px 0px;
+}
+.jsxCode .example {
+  color: rgb(15, 105, 270);
+}
+.main-content {
+  margin-left: 10px;
+  padding: 20px;
+  flex-grow: 1;
+}
+.left-side-bar {
+  padding: 20px 25px 20px 20px;
+  border-right: 1px solid #252a3a;
 }

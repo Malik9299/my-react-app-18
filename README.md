@@ -229,8 +229,15 @@ export default tseslint.config({
 
 ## Live Coding Interview Solutions
 
-- :white_check_mark: Make a dynamic dropdown with given json data.
-- :white_check_mark: API integration.
+1. :white_check_mark: Make a dynamic dropdown with given json data.
+
+2. :white_check_mark: API integration.
+
+### JS Question
+
+1. Hoisting
+2. Lexical Scope
+3. Clouser
 
 # Links
 
