@@ -1,11 +1,11 @@
+import { link } from "fs";
+import { title } from "process";
 import { NavLink } from "react-router-dom";
 
 import { Fragment } from "react/jsx-runtime";
 
 const NaveBar = () => {
   const nav = [
-    // { title: "Home", link: "/" },
-    // { title: "About", link: "/about" },
     { title: "Live-interview", link: "/live-interview" },
     { title: "JS-Questions", link: "/js-questions" },
     {
