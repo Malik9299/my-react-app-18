@@ -1,10 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import About from "../pages/About";
 import LiveInterview from "../pages/LiveInterview";
 import APIIntegration from "./liveInterviewSolutions/APIIntegration/APIIntegration";
 import MakeDropDown from "./liveInterviewSolutions/makeDropDown";
-// const { Fragment } = require("react");
 import { Fragment } from "react/jsx-runtime";
 import CompositionVsInheritance from "./T34.CompositionVsInheritance";
 import ClientSideRendering from "./T42.ClientSideRendering/ClientSideRendering";
@@ -12,6 +9,9 @@ import JsQuestion from "./JsQuestion";
 import Hoisting from "./JsQuestion/Hoisting";
 import LexicalScope from "./JsQuestion/LexicalScope";
 import T03Closure from "./JsQuestion/T03Closure";
+import Home from "../pages/Home";
+import T04UseOfThis from "./JsQuestion/T04UseOfThis";
+import Tests from "./Tests/Tests";
 
 const Router = () => {
   return (
@@ -20,6 +20,9 @@ const Router = () => {
         <div className="left-side-bar">Design Patterns (Research)</div>
         <div className="main-content">
           <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/tests" element={<Tests />} />
+
             <Route path="live-interview" element={<LiveInterview />}>
               <Route path="api-integration" element={<APIIntegration />} />
               <Route path="make-dropdown" element={<MakeDropDown />} />
@@ -36,6 +39,7 @@ const Router = () => {
               <Route path="hoisting" element={<Hoisting />} />
               <Route path="lexical-scope" element={<LexicalScope />} />
               <Route path="closure" element={<T03Closure />} />
+              <Route path="use-of-this" element={<T04UseOfThis />} />
             </Route>
           </Routes>
         </div>

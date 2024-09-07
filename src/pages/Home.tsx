@@ -1,9 +1,9 @@
-const { Fragment } = require("react");
+import { Fragment } from "react/jsx-runtime";
 
 const Home = () => {
   return (
     <Fragment>
-      <div>Home Page</div>
+      <div>Home</div>
     </Fragment>
   );
 };

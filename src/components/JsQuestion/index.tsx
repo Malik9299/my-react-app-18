@@ -16,6 +16,9 @@ const JsQuestion = () => {
         <NavLink className="eachNave" to="closure">
           Closure
         </NavLink>
+        <NavLink className="eachNave" to="use-of-this">
+          Use of This
+        </NavLink>
       </nav>
       <Outlet />
       {/* <Hoisting /> */}
