@@ -11,7 +11,7 @@ import LexicalScope from "./JsQuestion/LexicalScope";
 import T03Closure from "./JsQuestion/T03Closure";
 import Home from "../pages/Home";
 import T04UseOfThis from "./JsQuestion/T04UseOfThis";
-import Tests from "./Tests/Tests";
+import Tests from "./T33.Tests/Tests";
 
 const Router = () => {
   return (
