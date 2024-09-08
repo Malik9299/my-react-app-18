@@ -12,6 +12,11 @@ const NaveBar = () => {
       title: "Composition Vs Inheritance",
       link: "/composition-vs-inheritance",
     },
+
+    {
+      title: "Tests",
+      link: "/tests",
+    },
   ];
 
   return (
