@@ -12,11 +12,12 @@ const NaveBar = () => {
       title: "Composition Vs Inheritance",
       link: "/composition-vs-inheritance",
     },
-
     {
       title: "Tests",
       link: "/tests",
     },
+    { title: "RenderProps", link: "/render-props" },
+    { title: "HOC", link: "/hoc" },
   ];
 
   return (

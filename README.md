@@ -169,9 +169,9 @@ export default tseslint.config({
 
 14. :white_check_mark: Fragments - A way to group a list of children without adding extra nodes to the DOM.
 
-15. Higher-Order Components (HOCs) -A pattern used to enhance components by wrapping them in another component.
+15. :white_check_mark: Higher-Order Components (HOCs) -A pattern used to enhance components by wrapping them in another component.
 
-16. Render Props - A technique for sharing code between components using a prop whose value is a function.
+16. :white_check_mark: Render Props - A technique for sharing code between components using a prop whose value is a function.
 
 17. PropTypes - A way to check the types of props passed to a component to ensure they are correct.
 
