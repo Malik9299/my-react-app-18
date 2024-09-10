@@ -12,6 +12,8 @@ import T03Closure from "./JsQuestion/T03Closure";
 import Home from "../pages/Home";
 import T04UseOfThis from "./JsQuestion/T04UseOfThis";
 import Tests from "./T33.Tests/Tests";
+import RenderProps from "./T16.RenderProps";
+import HigherOrderComponents from "./T15.HigherOrderComponents";
 
 const Router = () => {
   return (
@@ -41,6 +43,8 @@ const Router = () => {
               <Route path="closure" element={<T03Closure />} />
               <Route path="use-of-this" element={<T04UseOfThis />} />
             </Route>
+            <Route path="render-props" element={<RenderProps />} />
+            <Route path="hoc" element={<HigherOrderComponents />} />
           </Routes>
         </div>
       </div>
