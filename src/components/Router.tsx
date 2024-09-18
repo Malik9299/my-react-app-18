@@ -14,6 +14,7 @@ import T04UseOfThis from "./JsQuestion/T04UseOfThis";
 import Tests from "./T33.Tests/Tests";
 import RenderProps from "./T16.RenderProps";
 import HigherOrderComponents from "./T15.HigherOrderComponents";
+import ContextAPI from "./T08.ContextAPI/ContextAPI";
 
 const Router = () => {
   return (
@@ -45,6 +46,7 @@ const Router = () => {
             </Route>
             <Route path="render-props" element={<RenderProps />} />
             <Route path="hoc" element={<HigherOrderComponents />} />
+            <Route path="context" element={<ContextAPI />} />
           </Routes>
         </div>
       </div>

@@ -18,6 +18,7 @@ const NaveBar = () => {
     },
     { title: "RenderProps", link: "/render-props" },
     { title: "HOC", link: "/hoc" },
+    { title: "Context", link: "/context" },
   ];
 
   return (
